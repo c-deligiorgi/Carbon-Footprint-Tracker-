@@ -1,0 +1,239 @@
+/* 
+
+Stylesheet by G. K. Braddyll-Brown / 150072377
+
+*/
+
+
+body {
+    position: relative; 
+}
+
+/* .affix code from https://www.w3schools.com/bootstrap/bootstrap_filters.asp */
+.affix {
+    top:0;
+    width: 100%;
+    z-index: 9999 !important;
+  }
+
+.affix ~ .container-fluid {
+   position: relative;
+   top: 0px;
+}
+
+
+/*.navbar {
+    margin-bottom: 0;
+    padding-left: 50px;
+    background-color: #fafafa;
+    font-size: 1.2em;
+    border: 0;
+    height: 60px;
+    padding-top: 5px;
+    border-bottom: 2px solid #fafafa;
+    
+}
+
+.navbar a {
+    color: #007f62;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: bold;
+}
+
+a.navbar-brand {
+    font-weight: 700;
+    color: #007f62;
+    font-size: 1.05em;
+}
+*/
+
+img#header {
+    display: block;
+    height: 200px;
+}
+
+img#sagelogo {
+    width: 70px;
+    display: inline-block;
+}
+
+img#teamlogo {
+    display: inline-block;
+    float: left;
+    height: 40px;
+    padding: 0;
+    margin-right: 10px;
+}
+
+a {
+    color: #000;
+}
+
+#section1 {
+    min-height: 50em;
+    background-color: #efefed;
+    border-bottom: 5px solid #ddd;
+}
+
+#section2 {
+    min-height: 50em;
+    border-bottom: 5px solid #ddd;
+}
+
+#section3 {
+    min-height: 50em;
+    background-color: #efefed;
+    border-bottom: 5px solid #ddd;
+}
+
+#section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
+
+#section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;
+}
+
+
+
+/* Items section formatting */
+
+
+/* styles the tab option on the add items section */
+
+ul#itemsTabs{
+  background-color: #34b234;
+}
+
+ul#itemsTabs active {
+    text-decoration: underline;
+}
+
+/* styles the items */
+div#items {
+    text-align: center;
+}
+
+input[type=checkbox] {
+    zoom: 150%;
+}
+
+div.item_thumbnail {
+    border: 0;
+    color: #007f62;
+    font-weight: bold;
+}
+
+div.item_thumbnail img {
+    max-height: 150px;
+    max-width: 150px;
+}
+
+
+
+/*.container{
+    width: 1920px;
+    margin: 0 auto;
+}*/
+
+.right{
+float: right;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*.main{
+    margin: 0 auto;
+    width:1200px;
+    height:100%;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+
+}*/
+
+        /*.tab-content{
+    background: white;
+    border:2px solid #fff; 
+    -webkit-box-shadow: -2px 5px 26px 4px rgba(0,0,0,0.75);
+        -moz-box-shadow: -2px 5px 26px 4px rgba(0,0,0,0.75);
+        box-shadow: -2px 5px 26px 4px rgba(0,0,0,0.75);
+    background: rgba(66, 66, 66, 0.26);
+
+}*/
+
+/*img{
+    width: auto;
+    height: auto;
+    max-width: 90%;
+    max-height: 90%;
+    left:0px;
+    top:0px;
+}*/
+
+
+
+
+h2 {
+    font-size: 1.5em;
+    font-style: italic;
+    color: #007f62;
+}
+
+h1 {
+    color: #004b83;
+    background-color: #3CB371;
+    font-family: sans-serif;
+    font-weight: 600;
+   /* color: #444;*/
+}
+
+
+div#stats {
+    height: 150px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+}
+
+div.statistic {
+    width: 25%;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    line-height: 1;
+    display: block;
+    font-size: 1.3em;
+    color: #888;
+    font-weight: 700;
+    float: left;
+    padding: 30px 10px 30px 12px;
+}
+
+img.badge {
+    height:200px;
+}
+
+p.number {
+    font-family: sans-serif;
+    font-size: 3.5em;
+    color: #34b234;
+    padding: 0;
+    font-weight: 700;
+}
+
+div#badges {
+    display: block;
+    object-position: center;
+    margin-bottom: 50px;
+    object-position: center;
+    min-height: 350px;
+}
+
+#badges img {
+    float: left;
+    width: 25%;
+    display: inline-block;
+    padding: 10px;
+}
