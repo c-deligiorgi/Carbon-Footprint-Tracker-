@@ -1,5 +1,5 @@
 # Carbon-FootTracker
-Develop a Sage Carbon footprint tracker which gives rewards (points/coins) based on
+Sage Carbon footprint tracker which gives rewards (points/coins) based on
 positive environmental decisions. The reason behind this is for Sage colleagues to promote
 recycling, litter picking and other things that may help the environment and reward those
 who do. The idea is to encourage colleagues to work together to create an environmentally
